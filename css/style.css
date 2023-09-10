@@ -55,12 +55,11 @@
   background-color: #ff0000;
   color: #ffffff;
 }
-.content{
-    
-    margin: 64px 303px;
-    width: 35%;
+.content {
+    margin: 68px 357px;
+    width: 29%;
     border-radius: 21px;
-    padding: 105px;
+    padding: 105px
 }
 .group1 input[type="number"]{
     margin: 7px 22px;
