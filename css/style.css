@@ -93,3 +93,65 @@ h1 {
   margin: 15px auto;
   box-shadow: inset 0 7px 0 rgba(190, 133, 9, 0.5);
 }
+
+@media (max-width: 768px) {
+  body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+  }
+  .content {
+      width: 90%;
+      padding: 20px;
+  }
+  .group1 input[type="number"],
+  .group1 input {
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 10px;
+  }
+  .content button {
+      width: 100%;
+      margin: 10px 0;
+  }
+  .left {
+      position: static;
+      display: block;
+      left: auto;
+      top: auto;
+  }
+  .right {
+      position: static; /* Remove fixed positioning */
+      display: block;
+      left: auto;
+      top: auto;
+  }
+  .mid {
+      margin: 20px auto;
+      width: 80%;
+  }
+  .nav {
+      width: 100%; /* Expand to full width */
+      text-align: center;
+      background-color: #e79f02;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: inset 0 5px 5px rgb(202, 140, 6);
+  }
+  .nav li {
+      display: inline-block; /* Display li elements inline */
+      font-size: medium;
+      margin: 0 10px; /* Add spacing between li elements */
+  }
+  .btn {
+      margin: 10px auto;
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .content {
+      width: 95%;
+  }
+}
