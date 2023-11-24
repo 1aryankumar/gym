@@ -1,62 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gym</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css\style.css">
-<style>
-    body {
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Poppins', sans-serif;
-        margin: 0px;
-        padding: 0px;
-        background: url('bg.jpg');
-        
-    }
-</style>
+
 <body>
-    
+
     <header class="head">
         <div class="left">
-<img src="media\logo.png" alt="logo" width="100px" height="100px">
+            <img src="media\logo.png" alt="logo" width="100px" height="100px">
         </div>
         <div class="mid">
-<ul class="nav">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About Us</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Contact Us</a></li> 
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </div>
         <div class="right">
-           <button class="btn">Call Now</button>
-           <button class="btn">Support</button>
+            <button class="btn">Call Now</button>
+            <button class="btn">Support</button>
         </div>
-        </header>
-        <div class="content">
-            <h1>Join us to get best of you</h1>
-            <form action="joi.php">
-                <div class="group1">
-                    <input type="text" name="name" id="name" placeholder="Name">
-                </div>
-                <div class="group1">
-                   
-                    <input type="number" id="age" name="age" min="0" max="120" step="1"
-                    placeholder="Age">
-                </div>
-                <div class="group1">
-                    <input type="text" name="gender" id="gender" placeholder="Gender">
-                </div>
-                <div class="group1">
-                    <input type="text" name="num" id="num" placeholder="Phone Number">
-                </div>
-                <button class="btn">Join</button>
-            </form>
-        </div>
+    </header>
+    <div class="content">
+        <h1>Join us to get the best of you</h1>
+        <form action="joi.php">
+            <div class="group1">
+                <input type="text" name="name" id="name" placeholder="Name">
+            </div>
+            <div class="group1">
+                <input type="number" id="age" name="age" min="0" max="120" step="1" placeholder="Age">
+            </div>
+            <div class="group1">
+                <input type="text" name="gender" id="gender" placeholder="Gender">
+            </div>
+            <div class="group1">
+                <input type="text" name="num" id="num" placeholder="Phone Number">
+            </div>
+            <button class="btn">Join</button>
+        </form>
+    </div>
 
 </body>
+
 </html>
